@@ -1,5 +1,4 @@
 # Musiva: Musify Yourself... 
-with our lightweight and easy-to-use utility music app
 
 <table>
   <tr>
