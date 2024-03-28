@@ -1,3 +1,5 @@
+<center>
+
 # Musiva: Musify Yourself... 
 
 <table>
@@ -30,3 +32,5 @@
     </td>
   </tr>
 </table>
+
+</center>
