@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Guitarc"
+    tools:context=".Guitar_Chords">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="260dp"
+            android:layout_height="280dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="245dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/edtRoot"
+            android:layout_width="360dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-100dp"
+            android:background="@drawable/rounded_textin"
+            android:ems="10"
+            android:hint="Enter Song name"
+            android:inputType="textPersonName"
+            android:paddingLeft="30dp"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-16dp" />
+
+        <EditText
+            android:id="@+id/edtMode"
+            android:layout_width="360dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rounded_textin"
+            android:ems="10"
+            android:hint="Enter Song name"
+            android:inputType="textPersonName"
+            android:paddingLeft="30dp"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/btnGetGChord"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/search"
+            android:text="Search"
+            app:layout_constraintTop_toBottomOf="@+id/edtRoot"
+            tools:layout_editor_absoluteX="0dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
