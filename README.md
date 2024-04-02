@@ -1,6 +1,6 @@
 <div align="center">
 
-# Musiva
+# Musiva: Musify Yourself
 
 <table>
   <tr>
